@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h2>Table</h2>
+    <!-- <table border="2" cellspacing="0" cellpadding="10px" width="30%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll No.</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Adarsh</td>
+                <td>01</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>Sheekha</td>
+                <td>02</td>
+                <td>130</td>
+            </tr>
+            <tr>
+                <td>Ram</td>
+                <td>03</td>
+                <td>150</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>400</td>
+            </tr>
+        </tfoot>
+    </table> -->
+
+
+    <table border="2" cellspacing="0" cellpadding="10px" width="30%">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Roll no.</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <colgroup>
+                <col span="" style="background-color: aqua;">
+                <col span="" style="background-color:blueviolet;">
+                <col span="" style="background-color:yellow;" >
+                <col span="" style="background-color:whitesmoke;" >
+            </colgroup>
+            <tr>
+                <td colspan="2" align="center">Adarsh</td>
+                <td>01</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2" align="center">Ram</td>
+                <!-- <td>lal</td> -->
+                <td>02</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <!-- <td >Kumar</td> -->
+                <td>03</td>
+                <td>98</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" align="center"><b>Total Marks</b></td>
+                <td>288</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+</body>
+</html>

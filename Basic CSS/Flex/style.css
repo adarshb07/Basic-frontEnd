@@ -1,0 +1,47 @@
+.container{
+    height: 500px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* justify-content: end;
+    justify-content: start;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between; */
+
+    /* Default value of align-items is stretch */
+    /* align-items:center; */
+
+    /* Align Content */
+    /* align-content: center; */
+
+}
+
+.box{
+    /* height: 500px; */
+    width: 100px;
+    border: 1px brown solid;
+    background-color: aqua;
+    /* flex-grow: 1; */
+}
+
+#box1{
+    order: 1;
+    /* flex-grow: 2; */
+}
+
+#box2{
+    order:6;
+    /* flex-grow: 1; */
+}
+
+#box3{
+    order:5;
+}
+
+#box4{
+
+}
+

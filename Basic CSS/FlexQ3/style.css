@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size:110%;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.left{
+    background-color:tomato;
+    width: 18%;
+}
+nav{
+    padding: 10px;
+}
+.right{
+    width: 82%;
+}
+header,footer{
+    padding: 10px;
+    background-color: aqua;
+    height: 20%;
+}
+article{
+    padding: 10px;
+    height: 60%;
+}

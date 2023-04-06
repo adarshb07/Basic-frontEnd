@@ -1,0 +1,42 @@
+.main{
+    position: relative;
+    width: 60%;
+    left: 50%;
+    transform:translateX(-50%);
+    background-color: black;
+}
+
+.main img{
+    width: 100%;
+    opacity: 0.7;
+    height: auto;
+}
+
+p{
+    color: white;
+    position: absolute;
+    font-size: 160%;
+}
+
+.topleft{
+    top: -5px;
+    left: 10px;
+}
+.topRight{
+    top: -5px;
+    right: 10px;
+}
+.bottomleft{
+    bottom: -5px;
+    left: 10px;
+}
+.bottomRight{
+    bottom: -5px;
+    right: 10px;
+}
+.center{
+    top:50%;
+    transform: translateY(-100%);
+    width: 100%;
+    text-align: center;
+}

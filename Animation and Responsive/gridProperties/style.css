@@ -1,0 +1,28 @@
+.container{
+    border: 1px solid red;
+    background-color: yellow;
+    width: 600px;
+    height: 690px;
+
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+
+    /* justify-content:space-around; */
+    /* align-content: space-around; */
+    /* align-items:center; */
+
+}
+
+.box{
+    border: 3px solid royalblue;
+    background-color: black;
+    color: white; 
+}
+
+#box1{
+    justify-self:start;
+    align-self: start;
+}

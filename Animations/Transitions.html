@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions in CSS</title>
+
+
+    <style>
+        :root{
+            --bg-color:red;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            margin: 50px auto;
+            background-color: red;
+            transition: width 1s ,transform 1s, height 1s,background-color 1s ease-in;
+            /* transition-property:width ; */
+            /* transition-duration: 1s; */
+            /* transition-timing-function: ease; */
+            /* transition-delay: 1s; */
+            /* transition: background-color 1s 5s; */
+
+        }
+
+        .box:hover{
+            width: 200px;
+            transform: rotate(180deg);
+            height: 200px;
+            background-color: green;
+        }   
+
+    </style>
+
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box">
+            Box
+        </div>
+    </div>
+</body>
+</html>
